@@ -43,20 +43,22 @@
   body{
       margin: 0;
       font-family: 'Lato', sans-serif;
+      background-color: #fafafa;
   }
 
   .header{
       display: grid;
       padding-left: 20px;
       grid-template-columns: 1fr 65vw 15% 1fr 50px;
-      margin-bottom: 2%;
       align-items: center;
       justify-items: center;
+      box-shadow: 3px 5px 33px#888888;
   }
 
   .header img{
       border-radius: 50px;
       object-fit: cover;
+      padding: 10px;
   }
 
   .search-bar{
@@ -75,14 +77,16 @@
   .global-container{
       display: grid;
       grid-template-columns: 120px max-content;
-      grid-column-gap: 30px;
+      grid-column-gap: 40px;
   }
 
   .movies-container{
       display: grid;
-      grid-gap: 15px;
-      grid-template-rows: 20px auto 20px auto 20px auto;
-      align-items: start;
+      grid-gap: 45px;
+      grid-template-rows: 0px auto 0px auto 0px auto;
+      align-items: center;
+      padding-bottom: 50px;
+      margin-top: 60px;
   }
 
   .movies-container h3{
@@ -91,18 +95,23 @@
 
   .movie-list{
       display: grid;
-      grid-template-columns: repeat(3, 10%);
+      width: 80vw;
+      grid-template-columns: repeat(3, 1fr);
       grid-column-gap: 25px;
+      grid-auto-columns: 0;
   }
 .left-navigation{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(5, min-content) max-content;
     justify-items: center;
+    background-color: rgb(249, 24, 24);
+    color: white;
+    padding-top: 30px;
 }
 
 [class^="icon-"]{
-    color: red;
+    color: white;
     font-size: 2.5em;
 }
 
