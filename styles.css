@@ -39,4 +39,56 @@
   .icon-home:before {
     content: "\e904";
   }
-  
+
+  body{
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+  }
+
+  .header{
+      display: grid;
+      padding-left: 20px;
+      grid-template-columns: 1fr 65vw 15% 1fr 50px;
+      margin-bottom: 2%;
+      align-items: center;
+      justify-items: center;
+  }
+
+  .header img{
+      border-radius: 50px;
+      object-fit: cover;
+  }
+
+  .search-bar{
+      width: 50%;
+  }
+
+  .search-bar input{
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: solid;
+      border-color: gray;
+      border-image: initial;
+  }
+
+  .global-container{
+      display: grid;
+      grid-template-columns: 120px max-content;
+  }
+
+  .movies-container{
+      display: grid;
+      grid-gap: 15px;
+      grid-template-rows: 20px auto 20px auto 20px auto;
+      align-items: start;
+  }
+
+  .movies-container h3{
+      margin: 0;
+  }
+
+  .movie-list{
+      display: grid;
+      grid-template-columns: repeat(3, 10%);
+  }
