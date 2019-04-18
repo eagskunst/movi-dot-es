@@ -40,3 +40,55 @@
     content: "\e904";
   }
   
+  body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .header {
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+  }
+
+  .user-display img{
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+
+  .global-container{
+    display: grid;
+    grid-template-columns: 8% 88%;
+    grid-gap: 2%;
+  }
+
+  .left-navigation {
+    background-color: red;
+    display: grid;
+    grid-template-rows: repeat(3, 60px) auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .left-nav-item{
+    color: white;
+  }
+
+  .left-nav-item:nth-of-type(4){
+    align-self: end;
+  }
+  
+  .left-navigation p{
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .left-navigation span{
+    font-weight: normal;
+  }
