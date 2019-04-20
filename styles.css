@@ -92,3 +92,50 @@
   .left-navigation span{
     font-weight: normal;
   }
+
+   .movies-container{
+    display: grid;
+    grid-template-rows: repeat(6, min-content);
+    grid-row-gap: 1.5em;
+  }
+
+  .movies-container h3{
+    margin: 0;
+  }
+  
+  .movie-list{
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    grid-column-gap: 30px;
+    margin-bottom: 1.5em;
+  }
+
+  .movie {
+    width: min-content;
+    position: relative;
+    display: inline-flex;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .movie-descp{
+    position: absolute;
+    display: grid;
+    grid-template-rows: 30px auto;
+    align-self: flex-end;
+    background-color: #d00a0ab8;
+    color: white;
+  }
+
+  .movie-descp span{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .movie-descp p{
+    font-size: .8em;
+    font-weight: lighter;
+    padding: 8px 15px 0 15px;
+  }
