@@ -6,7 +6,8 @@
     <title>Movi.es</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,112 +16,123 @@
         <form action="" class="search-bar">
             <input type="text" placeholder="Busca tu peli, actor, actriz o director favorito">
         </form>
-        <h3>
-            Bambi Rodríguez
-        </h3>
-        <img src="images/bambi.jpg" alt="You" width="70" height="70">
-        <span class="icon-down"></span>
+        <section class="user-display">
+                <span class="username">
+                        Bambi Rodríguez
+                </span>
+                <img src="images/bambi.jpg" alt="You" width="60" height="40">
+                <span class="icon-down"></span>
+        </section>
     </section>
     <section class="global-container">
         <section class="left-navigation">
-            <span class="icon-home"></span><p>Home</p>
-            <span class="icon-hot"></span><p>Trending</p>
-            <span class="icon-like"></span><p>Más likes</p>
-            <div class="settings-div">
-                <span class="icon-gear"></span><p>Ajustes</p>
-            </div>
+            <a href="about:blank" target="_blank" class="left-nav-item">    
+                <span class="icon-home"></span>
+                <p>Home</p>
+            </a>
+            <a href="about:blank" target="_blank"class="left-nav-item">
+                <span class="icon-hot"></span>
+                <p>Trending</p>
+            </a>
+            <a href="about:blank" target="_blank" class="left-nav-item">
+                <span class="icon-like"></span>
+                <p>Mas likes</p>
+            </a>
+            <a href="about:blank" target="_blank" class="left-nav-item">
+                <span class="icon-gear"></span>
+                <p>Ajustes</p>
+            </a>
         </section>
         <section class="movies-container">
             <h3>Ahora en el cine</h3>
             <section class="movie-list">
                     <div class="movie">
-                            <img src="images/avengers.jpg" alt="">
-                            <div class="movie-detail">
-                                <h4>Avengers: Infinity War</h4>
+                        <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
                                 <p>
                                 The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
                                 </p>
-                            </div>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                     </div>
                     <div class="movie">
-                            <img src="images/avengers.jpg" alt="">
-                            <div class="movie-detail">
-                                <h4>Avengers: Infinity War</h4>
+                        <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
                                 <p>
                                 The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
                                 </p>
-                            </div>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                     </div>
                     <div class="movie">
-                            <img src="images/avengers.jpg" alt="">
-                            <div class="movie-detail">
-                                <h4>Avengers: Infinity War</h4>
+                           <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
                                 <p>
                                 The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
                                 </p>
-                            </div>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                     </div>
             </section>
             <h3>Aclamadas por la crítica</h3>
-            <section class="movie-list">
-               <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
-                    </div>
-                </div>
+             <section class="movie-list">
                 <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
+                        <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
+                                <p>
+                                The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                                </p>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                     </div>
-                </div>
-                <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
+                    <div class="movie">
+                        <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
+                                <p>
+                                The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                                </p>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                     </div>
+                    <div class="movie">
+                           <div class="movie-descp">
+                                <span>Avengers: Infinity War</span>
+                                <p>
+                                The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                                </p>
+                        </div>
+                        <img src="images/avengers.jpg" alt="" width="" height="270">
                 </div>
             </section>
             <h3>No te la debes perder</h3>
              <section class="movie-list">
               <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
+                    <div class="movie-descp">
+                            <span>Avengers: Infinity War</span>
+                            <p>
+                            The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                            </p>
                     </div>
+                    <img src="images/avengers.jpg" alt="" width="" height="270">
                 </div>
                 <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
+                    <div class="movie-descp">
+                            <span>Avengers: Infinity War</span>
+                            <p>
+                            The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                            </p>
                     </div>
+                    <img src="images/avengers.jpg" alt="" width="" height="270">
                 </div>
                 <div class="movie">
-                    <img src="images/avengers.jpg" alt="">
-                    <div class="movie-detail">
-                        <h4>Avengers: Infinity War</h4>
-                        <p>
-                        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
-                        </p>
+                       <div class="movie-descp">
+                            <span>Avengers: Infinity War</span>
+                            <p>
+                            The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                            </p>
                     </div>
+                    <img src="images/avengers.jpg" alt="" width="" height="270">
                 </div>
-            </section>
             </section>
         </section>
     </section>
