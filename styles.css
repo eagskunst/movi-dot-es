@@ -108,6 +108,7 @@
   .left-nav-item{
     color: white;
     font-size: 1.2em;
+    text-decoration: none;
   }
 
   .left-nav-item:nth-of-type(4){
